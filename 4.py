@@ -5,7 +5,7 @@ if len(aa)>len(bb):
 s=0
 while s<len(aa):
    x+=(ord(bb[s])-ord(aa[s]))
-   p+=1
+   s+=1
 for s in range(s,len(bb)):
    x+=ord(bb[s])-ord('a')+1
-print(y)
+print(x)
