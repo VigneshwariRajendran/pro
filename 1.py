@@ -9,4 +9,4 @@ for i in zip(*ad):
     ff.append(i[0])
   else:
     break
- print(''.join(ff))   
+print(''.join(ff))   
